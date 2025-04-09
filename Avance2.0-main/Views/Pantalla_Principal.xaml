@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.Views.Pantalla_Principal"
+             Background="#cecece"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="false">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="0" Spacing="25">
+            <Frame BackgroundColor="#545454" HeightRequest="110">
+                <Label Padding="0,0,150,25"
+                       FontSize="32"
+                       TextColor="#fff"
+                       FontAttributes="Bold"
+                       FontFamily="sans-serif-black"
+                       HorizontalTextAlignment="Center"
+                       Text="Hola, Octavio 👋"/>
+            </Frame>
+
+            <Label x:Name="StatusLabel"
+                   FontSize="32"
+                   TextColor="#f00"
+                   FontAttributes="Bold"
+                   FontFamily="sans-serif-black"
+                   HorizontalTextAlignment="Center"
+                   Text="Puerta"/>
+
+            <!-- Botón para registrar eventos -->
+            <AbsoluteLayout>
+                <Button x:Name="PushButton"
+                        CornerRadius="75"
+                        WidthRequest="150"
+                        HeightRequest="150"
+                        BackgroundColor="#f00"
+                        BorderColor="#fff"
+                        BorderWidth="5"
+                        SemanticProperties.Hint="Registrar evento de puerta"
+                        HorizontalOptions="Fill"
+                        AbsoluteLayout.LayoutFlags="PositionProportional"
+                        AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize"
+                        Pressed="PushButton_Pressed"/>
+                <Image x:Name="StatusImg"
+                       Source="io_button.png"
+                       WidthRequest="100"
+                       HeightRequest="100"
+                       AbsoluteLayout.LayoutFlags="PositionProportional"
+                       AbsoluteLayout.LayoutBounds="0.5, 0.5, AutoSize, AutoSize" />
+            </AbsoluteLayout>
+
+            <!-- Título de la lista de notificaciones -->
+            <Label Text="Últimas Interacciones"
+                   FontSize="24"
+                   TextColor="#000"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"/>
+
+            <!-- Lista de notificaciones -->
+            <CollectionView x:Name="NotificacionesList" HeightRequest="300">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Black"
+                               BackgroundColor="#fffaf0"
+                               CornerRadius="13"
+                               Padding="5"
+                               HeightRequest="70">
+                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
+                                <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
+                                <Label Text="{Binding .}"
+                                       WidthRequest="200"
+                                       LineBreakMode="WordWrap"
+                                       MaxLines="2"
+                                       TextColor="Black"
+                                       FontSize="16"
+                                       VerticalOptions="Center"/>
+                                <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+    </ScrollView>
+    </ContentPage>

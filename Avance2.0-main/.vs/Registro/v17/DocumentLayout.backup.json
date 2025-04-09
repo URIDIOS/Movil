@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:service\\apiservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|c:\\users\\jesus\\videos\\proyecto-trou-movil\\avance2.0-main\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{63321306-FEA1-491B-95C4-42E3D0742957}|Registro.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApiService.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Service\\ApiService.cs",
+              "RelativeDocumentMoniker": "Service\\ApiService.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\Service\\ApiService.cs",
+              "RelativeToolTip": "Service\\ApiService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:25:35.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml",
+              "RelativeDocumentMoniker": "AppShell.xaml",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml",
+              "RelativeToolTip": "AppShell.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-06T00:10:30.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\Jesus\\Videos\\Proyecto-Trou-Movil\\Avance2.0-main\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T00:12:52.619Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

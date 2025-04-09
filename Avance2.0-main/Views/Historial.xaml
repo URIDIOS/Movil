@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.Views.Historial"
+             NavigationPage.HasNavigationBar="false">
+
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#9e9e9e" Offset="0.25" />
+            <GradientStop Color="#595959" Offset="1.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+
+    <ScrollView>
+        <VerticalStackLayout Padding="10" Spacing="15" HorizontalOptions="Center">
+
+            <Label Text="Historial"
+                   FontSize="32"
+                   TextColor="Black"
+                   FontAttributes="Bold"
+                   FontFamily="sans-serif-black"
+                   HorizontalTextAlignment="Center"
+                   HeightRequest="70"/>
+
+            <!-- Lista de notificaciones -->
+            <CollectionView x:Name="NotificacionesList" HeightRequest="500">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Black"
+                               BackgroundColor="#fffaf0"
+                               CornerRadius="13"
+                               Padding="5"
+                               HeightRequest="70"
+                               WidthRequest="320">
+                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                                <Image Source="verde.jpg" WidthRequest="35" HeightRequest="35"/>
+                                <Label Text="{Binding .}"
+                                       WidthRequest="200"
+                                       LineBreakMode="WordWrap"
+                                       MaxLines="2"
+                                       TextColor="Black"
+                                       FontSize="16"
+                                       VerticalOptions="Center"/>
+                                <Image Source="des.png" WidthRequest="35" HeightRequest="35"/>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

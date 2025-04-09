@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.Views.RecuperarContra"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#9e9e9e"
+                   Offset="0.25" />
+            <GradientStop Color="#595959"
+                   Offset="100.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ScrollView >
+        <VerticalStackLayout>
+            <Label 
+                 Margin="0,30,0,20"
+                 Text="Recuperar contraseña"
+                 FontSize="30"
+                 FontFamily="loster"
+                 TextColor="White"
+                 VerticalOptions="Center" 
+                 HorizontalOptions="Center"/>
+            <Label
+                 Margin="40,20,0,10"
+                 Text="Enviamos un codigo al correo electronico"
+                 TextColor="White"
+                 FontSize="15"/>
+            <Frame
+                 CornerRadius="20"
+                 BackgroundColor="#d1d1d1"
+                 WidthRequest="450"
+                 HeightRequest="65">
+                <Entry
+                     Text="******447@gmail.com"
+                     Placeholder="Correo"
+                     VerticalOptions="Center"
+                     BackgroundColor="#d1d1d1"
+                     WidthRequest="400"
+                     HeightRequest="60"/>
+            </Frame>
+            <Label
+                 Margin="40,20,0,0"
+                 Text="Codigo de acceso de 6 digitos"
+                 TextColor="White"
+                 FontSize="15"/>
+            <Frame
+                 CornerRadius="20"
+                 BackgroundColor="#d1d1d1"
+                 WidthRequest="450"
+                 HeightRequest="65">
+                <Entry  
+                     VerticalOptions="Center"
+                     BackgroundColor="#d1d1d1"
+                     WidthRequest="400"
+                     HeightRequest="60"
+                     MaxLength="6"/>
+            </Frame>
+            <Button
+                 Margin="0,100,0,0"
+                 BackgroundColor="White"
+                 HeightRequest="60"
+                 WidthRequest="300"
+                 Text="Verificar codigo"
+                 TextColor="Black"
+                Clicked="Button_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

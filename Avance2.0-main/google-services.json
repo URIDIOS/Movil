@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65595926558",
+    "project_id": "demopush-18c1c",
+    "storage_bucket": "demopush-18c1c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65595926558:android:7b82ce680ee1f0bf07e60f",
+        "android_client_info": {
+          "package_name": "ar.com.OCTA.Registro"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeVbiR3120GaHJyB5ut6IG0MIM25NyzPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

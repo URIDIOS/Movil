@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Registro.Views.Login"
+             NavigationPage.HasBackButton="False"
+             NavigationPage.HasNavigationBar="false">
+    <ContentPage.Background>
+        <LinearGradientBrush EndPoint="0,1">
+            <GradientStop Color="#9e9e9e"
+                       Offset="0.25" />
+            <GradientStop Color="#595959"
+                       Offset="100.0" />
+        </LinearGradientBrush>
+    </ContentPage.Background>
+    <ScrollView >
+        <VerticalStackLayout>
+            <Label 
+                Margin="0,100,0,60"
+                Text="Iniciar Sesión"
+                FontSize="45"
+                FontFamily="loster"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                TextColor="#fdfdfd"/>
+            <Label
+                Margin="65,20,0,10"
+                Text="NAME"
+                FontSize="12"
+                TextColor="#fdfdfd"/>
+            <Frame
+                CornerRadius="20"
+                BackgroundColor="#d1d1d1"
+                WidthRequest="360"
+                HeightRequest="65">
+                <Entry            
+                    Placeholder="Nombre"
+                    PlaceholderColor="Black"
+                    VerticalOptions="Center"
+                    BackgroundColor="#d1d1d1"
+                    WidthRequest="300"
+                    HeightRequest="60"/>
+            </Frame>
+            <Label
+                Margin="65,20,0,10"
+                Text="PASSWORD"
+                FontSize="12"
+                TextColor="#fdfdfd"/>
+            <Frame
+                CornerRadius="20"
+                BackgroundColor="#d1d1d1"
+                WidthRequest="360"
+                HeightRequest="65">
+                <Entry              
+                     IsPassword="True"
+                     Placeholder="Password"
+                     PlaceholderColor="Black"
+                     VerticalOptions="Center"
+                     BackgroundColor="#d1d1d1"
+                     WidthRequest="300"
+                     HeightRequest="60"/>
+            </Frame>
+            <Button
+                 FontAttributes="Bold"
+                 Margin="0,5,0,0"
+                 BackgroundColor="Transparent"
+                 HeightRequest="50"
+                 WidthRequest="300"
+                 Text="Olvide mi contraseña"
+                 TextColor="#0000FF"
+                 Clicked="Button_Clicked_2"/>
+            <Button
+                FontAttributes="Bold"
+                BackgroundColor="Transparent"
+                HeightRequest="50"
+                WidthRequest="300"
+                Text="¿No tienes cuenta? Crear Cuenta."
+                TextColor="#0000FF"
+                Clicked="Button_Clicked_1"/>
+            <Button
+                FontFamily="loster"
+                Margin="0,20,0,0"
+                BorderColor="#e5e8e8"
+                BorderWidth="2"
+                BackgroundColor="Transparent"
+                CornerRadius="20"
+                HeightRequest="65"
+                WidthRequest="350"
+                Text="Iniciar Sesión"
+                TextColor="#e5e8e8"
+                Clicked="Button_Clicked"/>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
