@@ -1,8 +1,3 @@
-OpenSans-Regular.ttf
-OpenSans-Semibold.ttf
-Poppins-Black.ttf
-Poppins-BlackItalic.ttf
-Poppins-ExtraLight.ttf
 appicon.ico
 appiconLargeTile.scale-100.png
 appiconLargeTile.scale-125.png
@@ -60,9 +55,4 @@ io_button.scale-100.png
 play.scale-100.png
 rojo.scale-100.jpg
 verde.scale-100.jpg
-splashSplashScreen.scale-100.png
-splashSplashScreen.scale-125.png
-splashSplashScreen.scale-150.png
-splashSplashScreen.scale-200.png
-splashSplashScreen.scale-400.png
 AboutAssets.txt

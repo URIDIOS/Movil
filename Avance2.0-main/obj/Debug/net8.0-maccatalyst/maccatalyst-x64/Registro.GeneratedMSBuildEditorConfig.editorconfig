@@ -12,73 +12,73 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Registro
-build_property.ProjectDir = C:\Users\Jesus\Videos\Proyecto-Trou-Movil\Avance2.0-main\
+build_property.ProjectDir = C:\Users\Jesus\OneDrive\Documentos\Movil\Avance2.0-main\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/App.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/AppShell.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/MainPage.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Resources/Styles/Colors.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Resources/Styles/Styles.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Views/Actividad.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Views/Actividad.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Actividad.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Actividad.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Actividad.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Views/CreateAccontView.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Views/CreateAccontView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.CreateAccontView.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\CreateAccontView.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\CreateAccontView.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Views/Historial.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Views/Historial.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Historial.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Historial.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Historial.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Views/Login.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Views/Login.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Login.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Login.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Login.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Views/Pantalla_Principal.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Views/Pantalla_Principal.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.Pantalla_Principal.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\Pantalla_Principal.xaml
 build_metadata.AdditionalFiles.RelativePath = Views\Pantalla_Principal.xaml
 
-[C:/Users/Jesus/Videos/Proyecto-Trou-Movil/Avance2.0-main/Views/RecuperarContra.xaml]
+[C:/Users/Jesus/OneDrive/Documentos/Movil/Avance2.0-main/Views/RecuperarContra.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Registro.Views.RecuperarContra.xaml
 build_metadata.AdditionalFiles.TargetPath = Views\RecuperarContra.xaml

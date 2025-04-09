@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.ObjectModel;
+using System.Net.Http;
+using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
 
 namespace Registro.Views
@@ -9,29 +11,49 @@ namespace Registro.Views
         private bool puertaAbierta = false; // Estado inicial de la puerta
         public static ObservableCollection<string> Notificaciones { get; set; } = new ObservableCollection<string>();
 
+        private readonly HttpClient httpClient = new HttpClient();
+        private readonly string baseUrl = "http://192.168.1.123"; // 👈 Reemplaza por la IP real del ESP32
+
         public Pantalla_Principal()
         {
             InitializeComponent();
-            NotificacionesList.ItemsSource = Notificaciones; // Vincula la lista de notificaciones
+            NotificacionesList.ItemsSource = Notificaciones;
         }
 
-        private void PushButton_Pressed(object sender, EventArgs e)
+        private async void PushButton_Pressed(object sender, EventArgs e)
         {
-            puertaAbierta = !puertaAbierta; // Cambia el estado de la puerta
+            puertaAbierta = !puertaAbierta;
 
-            if (puertaAbierta)
+            try
             {
-                PushButton.BackgroundColor = Colors.Green;
-                StatusLabel.Text = "Abierto";
-                StatusLabel.TextColor = Colors.Green;
-                Notificaciones.Insert(0, $"La puerta se abrió {DateTime.Now:hh:mm tt dd/MM/yyyy}");
+                string endpoint = puertaAbierta ? "/abrir" : "/cerrar";
+                var response = await httpClient.GetAsync($"{baseUrl}{endpoint}");
+
+                if (response.IsSuccessStatusCode)
+                {
+                    if (puertaAbierta)
+                    {
+                        PushButton.BackgroundColor = Colors.Green;
+                        StatusLabel.Text = "Abierto";
+                        StatusLabel.TextColor = Colors.Green;
+                        Notificaciones.Insert(0, $"La puerta se abrió {DateTime.Now:hh:mm tt dd/MM/yyyy}");
+                    }
+                    else
+                    {
+                        PushButton.BackgroundColor = Colors.Red;
+                        StatusLabel.Text = "Cerrado";
+                        StatusLabel.TextColor = Colors.Red;
+                        Notificaciones.Insert(0, $"La puerta se cerró {DateTime.Now:hh:mm tt dd/MM/yyyy}");
+                    }
+                }
+                else
+                {
+                    await DisplayAlert("Error", "No se pudo conectar al ESP32", "OK");
+                }
             }
-            else
+            catch (Exception ex)
             {
-                PushButton.BackgroundColor = Colors.Red;
-                StatusLabel.Text = "Cerrado";
-                StatusLabel.TextColor = Colors.Red;
-                Notificaciones.Insert(0, $"La puerta se cerró {DateTime.Now:hh:mm tt dd/MM/yyyy}");
+                await DisplayAlert("Error", $"Error de conexión: {ex.Message}", "OK");
             }
         }
     }
